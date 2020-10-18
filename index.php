@@ -23,7 +23,6 @@ $renault = new Truck('green', 5, 'fuel', 30);
 var_dump($renault);
 echo "<br><br>";
 
-echo $renault->setLoadCapacity(30);
 echo $renault->isLoaded().'<br>';
 echo $renault->forward().'<br>';
 echo $renault->brake().'<br>';
